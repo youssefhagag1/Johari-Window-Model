@@ -36,7 +36,7 @@ const showQuestion = questionNum => {
     }else{
         prev.style.display = "block";
     }
-    if(current_question === 19){
+    if(current_question === 20){
         next.style.display = "none";
         finsh.style.display = "block"
     }
