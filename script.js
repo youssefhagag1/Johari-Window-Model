@@ -96,3 +96,7 @@ const muteNext = _ => {
     next.style.pointerEvents = "none";
     next.style.opacity = "0.5";
 }
+finsh.addEventListener("click" _ => {
+    localStorage.setItem("answers" , JSON.stringify(answers));
+    location = "./result.html";
+});
