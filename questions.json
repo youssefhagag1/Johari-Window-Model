@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "If a friend had a personality conflict with someone important:",
+    "A": "Tell my friend they may be partly responsible and explain the impact.",
+    "B": "Stay out of it to avoid problems with either person."
+  },
+  {
+    "id": 2,
+    "question": "If a past argument made a friend uncomfortable around me:",
+    "A": "Avoid discussing it and let it drop.",
+    "B": "Bring it up and talk about how it affected the relationship."
+  },
+  {
+    "id": 3,
+    "question": "If a friend started avoiding me:",
+    "A": "Point out the behavior and ask what’s going on.",
+    "B": "Keep things brief since that seems to be what they want."
+  },
+  {
+    "id": 4,
+    "question": "If a friend revealed a personal issue of mine unknowingly:",
+    "A": "Change the subject immediately.",
+    "B": "Explain the issue and suggest discussing it later."
+  },
+  {
+    "id": 5,
+    "question": "If a friend said I was socially ineffective:",
+    "A": "Ask for examples and suggestions for change.",
+    "B": "Resent the criticism and defend my behavior."
+  },
+  {
+    "id": 6,
+    "question": "If a friend was unqualified for a leadership role:",
+    "A": "Say nothing and let others handle it.",
+    "B": "Share my concerns with my friend and the leader."
+  },
+  {
+    "id": 7,
+    "question": "If I felt a friend was being unfair:",
+    "A": "Ask others how they see the situation.",
+    "B": "Wait for others to bring it up first."
+  },
+  {
+    "id": 8,
+    "question": "If a friend said I was irritable lately:",
+    "A": "Explain that I’m preoccupied and on edge.",
+    "B": "Listen without explaining myself."
+  },
+  {
+    "id": 9,
+    "question": "If a friend asked me about a harmful rumor:",
+    "A": "Say I know nothing about it.",
+    "B": "Tell them exactly what I heard."
+  },
+  {
+    "id": 10,
+    "question": "If a friend pointed out a personality conflict:",
+    "A": "Shut down the discussion.",
+    "B": "Discuss it openly and explore my behavior."
+  },
+  {
+    "id": 11,
+    "question": "If arguments damaged a friendship:",
+    "A": "Avoid the topic to prevent more damage.",
+    "B": "Address the issue directly to resolve it."
+  },
+  {
+    "id": 12,
+    "question": "If a friend suggested discussing my behavior too:",
+    "A": "Redirect the focus away from me.",
+    "B": "Encourage honest feedback about me."
+  },
+  {
+    "id": 13,
+    "question": "If a friend shared hostile feelings about someone:",
+    "A": "Share my own feelings openly.",
+    "B": "Listen but keep my opinion to myself."
+  },
+  {
+    "id": 14,
+    "question": "If I suspected a friend heard a rumor about me:",
+    "A": "Avoid the topic.",
+    "B": "Ask them directly about it."
+  },
+  {
+    "id": 15,
+    "question": "If I noticed a friend harming their relationships:",
+    "A": "Tell them what I observed.",
+    "B": "Keep my opinion to myself."
+  },
+  {
+    "id": 16,
+    "question": "If friends mentioned a problem involving me:",
+    "A": "Ask for full details and opinions.",
+    "B": "Let them decide whether to tell me."
+  },
+  {
+    "id": 17,
+    "question": "If a friend was irritated without reason:",
+    "A": "Be gentle and avoid confrontation.",
+    "B": "Talk to them about how it affects others."
+  },
+  {
+    "id": 18,
+    "question": "If a friend’s habits annoyed me:",
+    "A": "Show it indirectly by avoiding them.",
+    "B": "Talk openly and clear the air."
+  },
+  {
+    "id": 19,
+    "question": "When discussing behavior with a sensitive friend:",
+    "A": "Avoid mentioning flaws.",
+    "B": "Focus on flaws to help improvement."
+  },
+  {
+    "id": 20,
+    "question": "If my group’s attitude toward me became negative:",
+    "A": "Discuss my shortcomings with friends.",
+    "B": "Figure it out on my own."
+  }
+]
