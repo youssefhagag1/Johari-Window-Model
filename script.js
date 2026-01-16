@@ -33,8 +33,16 @@ const getQuestions = async _ => {
 const showQuestion = questionNum => {
     if(current_question === 0){
         prev.style.display = "none";
-    }else{
+    } else {
         prev.style.display = "block";
+    }
+
+    if(current_question === 19){ 
+        next.style.display = "none";
+        finsh.style.display = "block";
+    } else {
+        next.style.display = "block";
+        finsh.style.display = "none";
     }
 
     selection_1.innerHTML = "";
@@ -47,21 +55,31 @@ const showQuestion = questionNum => {
             question.textContent = q.question;
             answer_1.textContent = q.A;
             answer_2.textContent = q.B;
-            for(let i = 0 ; i<=5 ; i++){
+
+            for(let i = 0 ; i <= 5 ; i++){
                 selection_1.innerHTML += `<div>
-                                            <input type="radio" name="ans1" id="ans1-${i}" value="${i}" oninput="addAnswer('A', this.value)">
-                                            <label for="ans1-${i}">${i}</label>
-                                        </div>`;
+                    <input type="radio" name="ans1" id="ans1-${i}" value="${i}" 
+                        ${answers[current_question]?.A === i ? "checked" : ""}
+                        oninput="addAnswer('A', this.value)">
+                    <label for="ans1-${i}">${i}</label>
+                </div>`;
+
                 selection_2.innerHTML += `<div>
-                                            <input type="radio" name="ans2" id="ans2-${i}" value="${i}" oninput="addAnswer('B', this.value)">
-                                            <label for="ans2-${i}">${i}</label>
-                                        </div>`;
+                    <input type="radio" name="ans2" id="ans2-${i}" value="${i}" 
+                        ${answers[current_question]?.B === i ? "checked" : ""}
+                        oninput="addAnswer('B', this.value)">
+                    <label for="ans2-${i}">${i}</label>
+                </div>`;
             }
-        })
-        if(current_question === 19){
-        next.style.display = "none";
-        finsh.style.display = "block"
-    }
+
+            if(answers[current_question]?.A + answers[current_question]?.B === 5){
+                next.style.pointerEvents = "auto";
+                next.style.opacity = "1";
+            } else {
+                muteNext();
+            }
+        });
+
 }
 
 window.addEventListener("load" , _ => {
