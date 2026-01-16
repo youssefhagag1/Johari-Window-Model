@@ -11,7 +11,7 @@ const finsh = document.getElementById("finsh");
 const timer = document.getElementById("timer");
 let current_question = 0;
 
-const data_after_hour = Date.now() + 10000;
+const data_after_hour = Date.now() + 1000 * 60 *60;
 const interval = setInterval(() => {
     if(data_after_hour <= Date.now()) {
         clearInterval(interval);
