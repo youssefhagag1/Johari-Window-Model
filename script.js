@@ -36,10 +36,6 @@ const showQuestion = questionNum => {
     }else{
         prev.style.display = "block";
     }
-    if(current_question === 20){
-        next.style.display = "none";
-        finsh.style.display = "block"
-    }
 
     selection_1.innerHTML = "";
     selection_2.innerHTML = "";
@@ -62,6 +58,10 @@ const showQuestion = questionNum => {
                                         </div>`;
             }
         })
+        if(current_question === 19){
+        next.style.display = "none";
+        finsh.style.display = "block"
+    }
 }
 
 window.addEventListener("load" , _ => {
