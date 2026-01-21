@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questions</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Cairo:wght@200..1000&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,35 +18,55 @@
 <div class="parent">
     <div class="container">
 
-        <div class="info">
-            <span>Q1</span>
-            <span id="timer">59:59</span>
+        <!-- Instructions -->
+        <div id="instructions">
+            <h2>Before you start </h2>
+            <p>
+                Each question has two answers. <br>
+                You must give each answer a score from 1 to 5. <br>
+                The total score of both answers must be exactly 5. <br>
+                <strong>A + B = 5</strong><br><br>
+                Example:
+                <br>If the first answer gets 3, the second answer must get 2.
+                <br>If one answer gets 5, the other one must be 0.
+            </p>
+            <button id="start">Start</button>
         </div>
 
-        <div class="content">
-            <p class="question"></p>
+        <!-- Questions -->
+        <div id="quiz" style="display:none">
 
-            <div class="ans1">
-                <p></p>
-                <div id="selection1"></div>
+            <div class="info">
+                <span>Q1</span>
+                <span id="timer">59:59</span>
             </div>
 
-            <div class="ans2">
-                <p></p>
-                <div id="selection2"></div>
+            <div class="content">
+                <p class="question"></p>
+
+                <div class="ans1">
+                    <p></p>
+                    <div id="selection1"></div>
+                </div>
+
+                <div class="ans2">
+                    <p></p>
+                    <div id="selection2"></div>
+                </div>
             </div>
-        </div>
 
-        <div class="btns">
-            <button id="prev">
-                <i class="fa-solid fa-arrow-left"></i>
-            </button>
+            <div class="btns">
+                <button id="prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
 
-            <button id="next">
-                <i class="fa-solid fa-arrow-right"></i>
-            </button>
+                <button id="next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
 
-            <button id="finsh">Finish</button>
+                <button id="finsh" disabled>Finish</button>
+            </div>
+
         </div>
 
     </div>

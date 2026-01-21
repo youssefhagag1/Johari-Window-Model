@@ -38,6 +38,9 @@ body{
     font-size: 30px;
     font-weight: 600;
 }
+.desc + p {
+    margin-bottom: 25px;
+}
 .heroSection img{
     width: 500px;
     max-width:100% ;
@@ -51,9 +54,9 @@ body{
     background-color: var(--maincolor);
     color: white;
     border: none;
-    padding: 15px 30px;
+    padding: 15px 25px;
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 18px;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -100,6 +103,20 @@ body{
     border-radius: 10px;
     width: 100%;
 }
+#instructions{
+    p{
+        line-height: 1.6;
+    }
+    button{
+        display: block;
+        margin-top: 20px;
+        background-color: var(--maincolor);
+        color: white;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+    }
+}
 .info{
     display: flex;
     justify-content: space-between;
@@ -115,6 +132,10 @@ body{
     line-height: 1.8;
     color: #13293D;
     
+}
+#selection1 , #selection2{
+    display: flex;
+    flex-direction: column;
 }
 .ans1 , .ans2{
     margin-bottom: 20px;
