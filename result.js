@@ -13,7 +13,7 @@ const analysis = document.getElementById("analysis");
 
 if(total_x >= 0 && total_x <= 25 ){
     if(total_y >= 0 && total_y <=25){
-        analysis.textContent = `Our hidden area cannot be known
+        analysis.textContent = `This area cannot be known
                                 to others unless we disclose it. There is
                                 that which we freely keep within ourselves,
                                 and that which we retain out of fear. The
@@ -21,7 +21,7 @@ if(total_x >= 0 && total_x <= 25 ){
                                 others (disclosure) is the degree to which
                                 we can be known.`;
     }else{
-        analysis.textContent = `The open area is that part of our
+        analysis.textContent = `This area is that part of our
                                 conscious self - our attitudes, behavior,
                                 motivation, values, way of life - of which
                                 we are aware and which is known to
